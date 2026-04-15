@@ -325,6 +325,10 @@ main {
   align-items: stretch;
 }
 
+.section-shell--visual-reverse {
+  grid-template-columns: 0.95fr 1.05fr;
+}
+
 .visual-panel,
 .content-panel {
   border-radius: calc(var(--radius) + 4px);
@@ -353,6 +357,10 @@ main {
   display: grid;
   gap: 22px;
   margin-top: 28px;
+}
+
+.stack-list--tight {
+  gap: 16px;
 }
 
 .stack-list div {
@@ -452,7 +460,8 @@ main {
   .partnership-grid,
   .timeline,
   .section-shell--split,
-  .section-shell--visual {
+  .section-shell--visual,
+  .section-shell--visual-reverse {
     grid-template-columns: 1fr;
   }
 }
